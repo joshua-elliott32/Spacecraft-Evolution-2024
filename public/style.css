@@ -1,0 +1,74 @@
+@font-face {
+   font-family: spaceFont;
+   src: url(assets/fonts/SpaceMissionFont.otf);
+}
+
+body {
+  overflow: hidden;
+  padding: 0px;
+  margin: 0px;
+}
+
+.buttons {
+  border-style: solid;
+  border-radius: 20px;
+  font-size: 60px;
+  color: #FAF9F6;
+  border-color: #FAF9F6;
+  border-width: 5px;
+  text-align: center;
+  font-family: spaceFont;
+}
+
+.greenButton {
+  background-color: #1ded40;
+}
+
+.blueButton {
+  background-color: #00B7ef;
+}
+
+.pinkButton {
+  background-color: #f70ac8;
+}
+
+.orangeButton {
+  background-color: #ff3700;
+}
+
+.colourButtons {
+
+}
+
+.shipButtons {
+  
+}
+
+.upgradeButtons {
+  color: black;
+  background-color: grey;
+  padding: 5px;
+  font-size: 40px;
+}
+
+.playButton {
+  color: black;
+
+}
+
+.active {
+  border-width: 10px !important;
+}
+
+.shipButtons {
+  background-color: grey;
+}
+
+.inputs {
+  border-style: solid;
+  border-radius: 20px;
+  font-family: spaceFont;
+  border-width: 5px;
+  font-size: 40px;
+  text-align: center;
+}
