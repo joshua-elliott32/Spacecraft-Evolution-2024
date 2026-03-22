@@ -9,7 +9,7 @@ const Victor = require("victor");
 
 //create express app and tells it what folder to serve
 let app = express();
-let PORT = 5500;
+let PORT = process.env.PORT || 5500;
 app.use(express.static("public"));
 
 //Listening for client emits
